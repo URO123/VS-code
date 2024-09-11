@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(90deg, red, yellow 30%);
+}
+.main {
+    display: flex;
+}
+.main__left {
+    width: 20%;
+    height: 90vh;
+}
+.main-left__info {
+    width: 100%;
+    height: 15%;
+    background-color: red;
+    background-image: repeating-linear-gradient(135deg, green 1vh, white 2vh, blue 3vh);
+    margin: 1vh;
+}
+.main__right {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 90vh;
+    overflow-y: scroll;
+}
+.main-right__info {
+    height: 20vh;
+    width: 20%;
+    margin: 1vh;
+    background-color: green;
+    background-image: repeating-linear-gradient(45deg, yellow 0 0.5vh, orange 0.5vh 1vh);
+}

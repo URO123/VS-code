@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('./fonts/FuturaPT-Medium.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('./fonts/FuturaPT-Medium.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('./fonts/FuturaPT-Bold.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('./fonts/FuturaPT-Book.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('./fonts/FuturaPT-Bold.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('./fonts/FuturaPT-Book.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('./fonts/FuturaPT-Light.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('./fonts/FuturaPT-Light.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+    padding: 0;
+}
+
+body {
+    font-family: 'FuturaPT', 'Arial', sans-serif;
+    background-color: #F9F8F8;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.site-header {}
+
+.site-header__top {
+    background-color: #f5f5f5;
+}
+
+.site-header__top-inner {
+    padding: 11px 0 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header__adress-list {}
+
+.site-header__adress-item {
+    list-style: none;
+}
+
+.site-header__top-img {}
+
+.site-header__number-list {
+    display: flex;
+}
+
+.site-header__number-link:hover {
+    color: #FFBD54;
+}
+
+.site-header__number-item {
+    list-style: none;
+    margin-right: 22px;
+}
+
+.site-header__number-link {
+    color: black;
+    text-decoration: none;
+}
+
+.site-header__date-list {
+    display: flex;
+}
+
+.site-header__date-item {
+    list-style: none;
+    margin-right: 17px;
+}
+
+.actives-item {
+    margin: 0;
+    margin-right: 155px;
+}
+
+.active {
+    margin: 0;
+}
+
+.site-header__bottom {
+    background-color: #fff;
+}
+
+.site-header__bottom-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.site-header__bottom-logo {
+    position: absolute;
+    margin-right: 250px;
+}
+
+.site-header__bottom-list {
+    list-style: none;
+    display: flex;
+}
+
+.site-header__bottom-item {
+    margin-right: 55px;
+}
+
+.site-header__bottom-img {
+    margin-right: 1px;
+    margin-left: 115px;
+}
+
+.site-header__bottom-link:hover {
+    border-bottom: solid 3px yellow;
+}
+
+.site-header__bottom-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.site-header__bottom-logo-link {}
+
+.site-header__bottom-questions {}
+
+.site-header__bottom-questions__link:active {
+    opacity: 0.3px;
+}
+
+.site-header__bottom-questions__link:hover {
+    border-bottom: solid 3px yellow;
+}
+
+.site-header__bottom-questions__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero__inner {
+    display: flex;
+}
+
+.hero__main {
+    align-items: center;
+}
+
+.site-heading {
+    width: 600px;
+    margin-top: 145px;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.hero__text-blue {
+    color: #78C0DE;
+}
+
+.hero-img {
+    background-image: url('images/photo_2023-11-28_13-12-52.jpg');
+    background-position: left top;
+}
+
+.hero__text {
+    width: 495px;
+    margin-bottom: 38px;
+    margin-top: 29px;
+}
+
+.hero__btn:hover {
+    opacity: 0.8;
+}
+
+.hero__btn {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 48px;
+    border-radius: 5px;
+    position: absolute;
+}
+.hero__img{
+    text-align: center;
+    background-image: url('images/photo_2023-11-28_13-12-52\ \(2\).jpg');
+    background-position: right bottom;
+    width: 319px;
+    height: 450px;
+}

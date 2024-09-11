@@ -1,0 +1,59 @@
+.one{
+    border:red 5px solid;
+    border-radius: 5px;
+}
+.two{
+    border: blue 5px dotted;
+    border-radius: 15px;
+}
+.three{
+    border:greenyellow 5px dashed ; 
+    border-radius:50px;
+}
+.fourth{
+    border: rgb(255, 139, 22) 5px double;
+    border-radius: 100px;
+    
+}
+p{font-style:oblique;}
+.photo-1{
+    width:200px;
+    height: 200px;
+    border: greenyellow 6px solid;
+    
+}
+.photo-2{
+    width: 200px;
+    height: 200px;
+    border: red 6px solid;
+    border-radius: 20%;
+}
+.photo-3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.photo-4{
+    width: 200px;
+    height: 200px;
+    border: red 50px solid;
+    border-image: url(./images/photo_2023-10-13_17-28-00.jpg) 100 stretch;
+}
+.photo-5{
+    width: 200px;
+    height: 200px;
+    border: red 50px solid;
+    border-image: url(./images/photo_2023-10-13_17-27-55.jpg) 180 round;
+}
+.photo-7{
+    width: 200px;
+    height: 200px;
+    border: red 50px solid;
+    border-image: url(./images/d3e5acac6b14edc4a48ea5abdacb8d3c.jpg) 100 round;
+}
+.photo-8{
+
+width: 200px;
+    height: 200px;
+    border: red 50px solid;
+    border-image: url(./images/photo_2023-10-13_17-28-00.jpg) 100 round;}

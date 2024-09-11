@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
+</head>
+<body>
+<div class="container d-flex mt-5 mb-5">
+    <div class="container"> 
+        <h1 class="">Billing address</h1>
+        <form action="https://echo.htmlacademy.ru" method="post" class="row container g-3 needs-validation w-100" novalidate>
+            <div class="col-md-4 w-50">
+              <label for="validationCustom01" class="form-label">First name</label>
+              <input name="user-name" type="text" class="form-control" id="validationCustom01" placeholder="Kevin" required>
+            <div class="invalid-feedback">
+                Please select a valid first name.
+              </div>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 w-50">
+              <label for="validationCustom02" class="form-label">Last name</label>
+              <input name="user-surname" type="text" class="form-control" id="validationCustom02" placeholder="Mc callister" required>
+            <div class="invalid-feedback">
+                Please select a valid last name.
+              </div>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="input-group col-md-4 mb-3 d-flex  flex-row-reverse">
+                <input name="user-nickname" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" required>
+                <span class="input-group-text rounded-left" id="basic-addon1">@</span>
+                <div class="invalid-feedback">
+                    Please select a valid username.
+                  </div>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+            </div>
+            <div class="mb-3 w-100">
+                <label for="exampleFormControlInput1" class="form-label">Email <span class="text-secondary">(Optional)</span></label>
+                <input name="user-email" required type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <div class="invalid-feedback">
+                    Please select a valid email.
+                  </div>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+            </div>
+            <div class="mb-3 w-100">
+                <label for="exampleFormControlInput2" class="form-label">Address</label>
+                <input name="user-address" required type="text" class="form-control" id="exampleFormControlInput2" placeholder="1234 Main St">
+                <div class="invalid-feedback">
+                    Please select a valid address.
+                  </div>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+            </div>
+            <div class="mb-3 w-100">
+                <label for="exampleFormControlInput3" class="form-label">Address 2 <span class="text-secondary">(Optional)</span></label>
+                <input name="user-second-address" required type="text" class="form-control" id="exampleFormControlInput3" placeholder="Apartment or suite">
+                <div class="invalid-feedback">
+                    Please select a valid address.
+                  </div>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+            </div>
+                <div class="col-md-4 border-bottom border-secondary-subtle  pb-5" style="width: 240px;">
+                  <label for="validationCustom04" class="form-label">Country</label>
+                  <select name="user-country" required class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>Uzbekistan</option>
+                    <option>Amerika</option>
+                    <option>Angliya</option>
+                    <option>Meksika</option>
+                    <option>Xitoy</option>
+                    <option>Yaponiya</option>
+                    <option>Rossiya</option>
+                    <option>Korea</option>
+                    <option>Germaniya</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid country.
+                  </div>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4 border-bottom border-secondary-subtle pb-5" style="width: 210px;">
+                  <label for="validationCustom05" class="form-label">State</label>
+                  <select name="user-state" required class="form-select" id="validationCustom05" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>Fargona</option>
+                    <option>Samarqand</option>
+                    <option>Navoiy</option>
+                    <option>Toshkent</option>
+                    <option>Buxoro</option>
+                    <option>Qashqadaryo</option>
+                    <option>Surxandaryo</option>
+                    <option>Jizzax</option>
+                    <option>Xorazm</option>
+                    <option>Sirdaryo</option>
+                    <option>Andijon</option>
+                    <option>Namangan</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4 border-bottom border-secondary-subtle pb-5" style="width: 155px;">
+                  <label for="validationCustom06" class="form-label">Zip</label>
+                  <input name="user-zip-code" required type="text" class="form-control" id="validationCustom06" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid zip.
+                  </div>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="form-check pt-4" style="width: 390px;">
+                  <input value="accepted" name="user-consent" required class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                  Shipping address is the same as my billing address
+                  </label>
+                  <div class="invalid-feedback">
+                      Please select a valid checkbox.
+                  </div>
+                  <div class="valid-feedback">
+                      Looks good!
+                  </div>
+              </div>
+              <div class="form-check" style="width: 277px;">  
+                  <input value="accepted" name="user-second-consent" required class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                  <label class="form-check-label" for="defaultCheck2">
+                    Save this information for next time
+                  </label>
+                  <div class="invalid-feedback">
+                      Please select a valid checkbox.
+                    </div>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+              </div>
+                <button type="submit" class="btn btn-primary">
+                Submit form
+                </button>
+    </div>
+
+    <div class="container">
+    <h2 class="position-relative text-primary fs-1 fw-bold">
+        Your cart
+        <span class="position-absolute fs-5 top-0 badge rounded-circle bg-primary" style="right: 330px;">
+        3
+        <span class="visually-hidden">unread messages</span>
+        </span>
+    </h2>
+        <table class="table border border-left border-right w-50 mb-0">
+            <thead>
+              <tr>
+                <th scope="col">Product name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Brief description</td>
+                <td>$12</td>
+              </tr>
+            </thead>
+        </table>
+        <table class="table border border-left border-right w-50 mb-0">
+            <thead>
+              <tr>
+                <th scope="col">Second product</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Brief description</td>
+                <td class="p-0 ps-3">$8</td>
+              </tr>
+            </tbody>
+        </table>
+        <table class="table border border-left border-right w-50 mb-0">
+            <thead>
+              <tr>
+                <th scope="col">Third item</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="ps-0">Brief description</td>
+                <td class="p-0 pe-5">$5</tr>
+            </tr>
+            </tbody>
+        </table>
+        <table class="table border border-left border-right w-50 mb-0">
+            <thead>
+              <tr>
+                <th class="text-success" scope="col">Promo code</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-success fw-bold">EXAMPLECODE</td>
+                <td class="text-success fw-bold">-$5</td>
+              </tr>
+            </tbody>
+        </table>
+        <table class="table border border-left border-right w-50">
+            <tbody>
+              <tr>
+                <td class="text-secondary ps-5">Total (USD)</td>
+                <td class="text-dark fw-bold pe-5">$20</td>
+              </tr>
+            </tbody>
+        </table>
+            <div class="input-group col-md-4 mb-3 w-50 d-flex flex-row-reverse">
+                <span class="input-group-text text-white bg-secondary" id="basic-addon1">Redeem</span>
+                  <input type="text" class="form-control" placeholder="Promo code" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+    </div>
+</div>
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+</script>
+</body>
+</html>

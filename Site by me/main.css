@@ -1,0 +1,17 @@
+body{
+    background-image: url(./images/256_144_4.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    color: aliceblue;
+    background-position-x:center ;
+    background-position-y: 120px + 50%;
+}
+.css{
+    color: chartreuse;
+}
+.scc{
+    color: rgb(255, 106, 0);
+}
+.cda{
+    color:rgb(193, 239, 239);
+}

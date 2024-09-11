@@ -1,0 +1,18 @@
+body{
+    background-color: #e77b6f;
+}
+.a1{
+    text-align: center;
+    list-style: none;
+}
+.a2{
+    display: inline-block;
+    background-color: aliceblue;
+    width: 200px;
+    border-radius: 5px;
+}
+.a3{
+    list-style: none;
+
+}
+.a4{color: #e77b6f;}

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+    object-fit: cover;
+}
+body{
+    font-family: 'Mulish' 'Arial', sans-serif;
+    background-color: $main-bck-color;
+    color: $main-color;
+}

@@ -1,0 +1,23 @@
+body{
+    background-image: url(./images/restaurant.jpg);
+    background-size: cover;
+    color: white;
+}
+.text{
+    color: red;
+}
+.text-em{
+    font-style: italic;
+}
+#header{color: aliceblue;}
+.box{
+    width: 500px; 
+    height: auto;
+    background-color: aquamarine;
+    border-radius: 15px;
+    border: 5px solid red;
+    padding: 10px;
+}
+.text-inner{
+    color: black;
+}

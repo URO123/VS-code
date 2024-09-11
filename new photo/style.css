@@ -1,0 +1,24 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.span {
+    color: #fff;
+    background-color: #f00;
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    left: 75px;
+    top: 5px;
+}
+.Photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    border: solid 5px rgb(180, 0, 225);
+}

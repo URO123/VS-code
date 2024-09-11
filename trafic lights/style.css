@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.light{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 170px;
+    height: auto;
+    gap: 10px;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.light-span{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.light-span:nth-child(1) {
+    animation: redcolor 6s linear 1s infinite;
+}
+.light-span:nth-child(2) {
+    animation: yellowcolor 6s linear 3s infinite;
+}
+.light-span:nth-child(3) {
+    animation: greencolor 6s linear 5s infinite;
+}
+
+@keyframes redcolor {
+    0%{
+        background-color: red;
+    }
+    33%{
+        background-color: red;
+    }
+    34%{
+        background-color: white;
+    }
+    100%{
+        background-color: white;
+    }
+}@keyframes yellowcolor {
+    0%{
+        background-color: yellow;
+    }
+    33%{
+        background-color: yellow;
+    }
+    34%{
+        background-color: white;
+    }
+    100%{
+        background-color: white;
+    }
+}@keyframes greencolor {
+    0%{
+        background-color: green;
+    }
+    33%{
+        background-color: green;
+    }
+    34%{
+        background-color: white;
+    }
+    100%{
+        background-color: white;
+    }
+}

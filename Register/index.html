@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <form action="#" method="post">
+            <input class="visually-hidden" checked type="radio" name="login" id="tab-1">
+            <label class="sign" for="tab-1">SIGN IN</label>
+        
+            <input class="visually-hidden" type="radio" name="login" id="tab-2">
+            <label class="sign m0" for="tab-2">SIGN UP</label>
+        
+        
+            <div class="sign-in">
+            <label for="user-name" class="sign-label">USERNAME</label>
+            <input type="text" id="user-name">
+            <label for="user-password" class="sign-label">PASSWORD</label>
+            <input type="password" id="user-password">
+            <input class="visually-hidden" type="checkbox"  id="check">
+            <label class="sign-check" for="check">Keep me Signed in</label>
+            <button type="submit">SIGN IN</button>
+            <label class="sign margin" for="tab-2">Forgot Password?</label>
+            </div>
+        
+        
+            <div class="sign-up">
+                <label for="user-name" class="sign-label">USERNAME</label>
+                <input type="text" id="user-name">
+                <label for="user-password" class="sign-label">PASSWORD</label>
+                <input type="password" id="user-password">
+                <label for="user-re-password" class="sign-label">REPEAT PASSWORD</label>
+                <input type="password" id="user-re-password">
+                <label for="user-email" class="sign-label">EMAIL ADDRESS</label>
+                <input type="email" id="user-email">
+                <button type="submit">SIGN UP</button>
+                <label class="sign margint" for="tab-1">Already Member?</label>
+                </div>
+        </form>
+</body>
+</html>

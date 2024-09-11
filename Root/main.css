@@ -1,0 +1,42 @@
+:root{
+    --blue: dodgerblue;
+    --white: #fff;
+}
+::selection{
+    background-color: aquamarine;
+    color: #00f;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--blue)
+}
+.container{
+    background-color: var(--white);
+    padding: 10px;
+    margin: 20px;
+}
+h2{
+    color: var(--blue);
+    border-bottom: 2px solid var(--blue);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+h1{
+    color: var(--white);
+    padding-bottom: 10px;
+    margin: 50px;
+}
+p{
+    color: var(--blue);
+    margin-bottom: 20px;
+}
+button{
+    color: var(--blue);
+    background-color: var(--white);
+    padding: 5px;
+    border: solid var(--blue) 1px;
+}

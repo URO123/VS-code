@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.coment{
+    padding-top: 250px;
+    padding-left: 550px;
+}
+.coment__text{
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 11px 30px;
+}
+.coment__text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -35px;
+    border-right: orange solid 18px;
+    border-bottom: transparent solid 20px;
+    border-top: transparent solid 20px;
+    border-left: transparent solid 20px;
+}
+.comment-div::after{
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 7px;
+    font-weight: 1000px;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    background-color: #fff;
+    color: orange;
+}

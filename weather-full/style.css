@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #10043c;
+
+  }
+  .input {
+    padding: 10px;
+    outline: none;
+    border: 1.2px solid dodgerblue;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+  }
+  .btn {
+    padding: 8.3px;
+    border: none;
+    background-color: dodgerblue;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 18px;
+  }
+  .city-box {
+    margin-top: 30px;
+    display: inline-block;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px 40px;
+    background-image: linear-gradient(0deg, #3e43d2 0%, #10043c 100%);
+    border: 1px solid #00f7ff;
+  }
+  .city-title {
+    font-size: 32px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+  }
+  .city-desc {
+    display: flex;
+    color: #fff;
+    text-align: left;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .city-degree {
+    font-size: 40px;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  .city-bottom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .city-deg {
+    color: #fff;
+    font-size: 12px;
+  }
+  .city-speed {
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  .recently-cities {
+    width: 270px;
+    position: absolute;
+    top: 70px;
+    left: calc(50% - 500px);
+    border-radius: 10px;
+    box-shadow: inset 0 30px 60px -12px hsla(240, 9%, 80%, 0.25),
+      inset 0 18px 36px -18px #cdc2c2;
+    padding: 20px;
+    /* display: none; */
+  }
+  .recently-list {
+    display: flex;
+    list-style-type: none;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .recently-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .recently-title {
+    background-color: bisque;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    
+  }
+  .recently-favourite {
+    background-color: orange;
+    font-size: 32px;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+  .recently-head {
+    color: #fff;
+    margin: 0 auto;
+    font-size: 28px;
+  }
+  .favourite-cities {
+    width: 270px;
+    position: absolute;
+    top: 70px;
+    right: calc(50% - 500px);
+    border-radius: 10px;
+    box-shadow: inset 0 30px 60px -12px hsla(240, 9%, 80%, 0.25),
+      inset 0 18px 36px -18px #cdc2c2;
+    padding: 20px;
+  }
+  .favourite-list {
+    display: flex;
+    list-style-type: none;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .favourite-title{
+    background-color: rgb(53, 163, 93);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+  }
+  .remove{
+    background-color: red;
+    font-size: 25px;
+    color: #fff;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding-bottom: 10px;
+  }
+  .recently{
+    color: #fff;
+  }
+  .favourite{
+    color: #fff;
+  }
+  .city-location{
+    color: #64dbfc;
+  }
+.wrapper{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.loader-box{
+  display: none;
+}
+.loader-box.show{
+  position: absolute;
+  display: block;
+  top: 200px;
+}
+.spinner{
+  width: 5rem !important;
+  height: 5rem !important;
+}
+.loading{
+  color: #fff;
+}
+
+
+
+
+
+.loader-box{
+  position: relative;
+}
+.loader-box>.loader{
+  width: 65px;
+  aspect-ratio: 1;
+  position: absolute;   
+  left: 740px;
+  top: 100px;
+}
+.loader:before,
+.loader:after {
+  content: "";
+  position: absolute;
+  border-radius: 50px;
+  box-shadow: 0 0 0 3px inset #fff;
+  animation: l4 2.5s infinite;
+}
+.loader:after {
+  animation-delay: -1.25s;
+}
+@keyframes l4 {
+  0% {
+    inset: 0 35px 35px 0;
+  }
+  12.5% {
+    inset: 0 35px 0 0;
+  }
+  25% {
+    inset: 35px 35px 0 0;
+  }
+  37.5% {
+    inset: 35px 0 0 0;
+  }
+  50% {
+    inset: 35px 0 0 35px;
+  }
+  62.5% {
+    inset: 0 0 0 35px;
+  }
+  75% {
+    inset: 0 0 35px 35px;
+  }
+  87.5% {
+    inset: 0 0 35px 0;
+  }
+  100% {
+    inset: 0 35px 35px 0;
+  }
+}
+
+
+
+
+
+.form {
+  background-color: transparent;
+}
+.input-search {
+}
+

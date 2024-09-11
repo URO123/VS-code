@@ -1,0 +1,15 @@
+.btn-success{
+    position: relative;
+}
+
+.btn-success:before{
+    background-image: url(./line.svg);
+    background-repeat: no-repeat;
+    background-size:24px 14px;
+    width: 24px;
+    height: 14px;
+    position: absolute;
+    content: "";
+    top: 17px;
+    right: 15px;
+}

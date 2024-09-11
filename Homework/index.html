@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://echo.htmlacademy.ru" method="post">
+        <h2>Registration</h2>
+        <label for="user-name">Ismingizni kiriting:</label>
+        <input type="text" id="user-name"  name="user-name" placeholder="Ismingizni kiriting" required><br>
+        
+
+        <label for="user-surname">Second Name:</label>
+        <input name="user-surname" id="user-surname" type="text" placeholder="Second Name" required> <br>
+
+        <label for="user-email">Email</label>
+        <input type="email" id="user-email" name="user-email" placeholder="Email" required><br>
+
+
+
+        <label for="user-password">Password</label>
+        <input type="password" name="user-password" id="user-password" placeholder="Password" minlength="5"><br>
+
+
+        <label for="age">Age</label>
+        <input type="text" name="user-age" id="age" placeholder="Age" minlength="2" maxlength="3" required> <br>
+
+
+        <label for="user-tel">Phone Number</label>
+        <input type="tel" id="user-tel" name="user-tel" value="+998" required maxlength="13" minlength="9" > <br>
+
+
+        <h2>Date of Birth</h2>
+        <label for="user-date of birth">Date</label>
+        <input type="date" id="user-date of birth" name="user-date of birth" required> <br>
+
+
+        <h2>Gender:</h2>
+        <label for="user-male">Male</label>
+        <input type="radio" id="user-male" name="user-gender" value="Male" ><br>
+
+
+        <label for="user-female">Female</label>
+        <input type="radio" id="user-female" name="user-gender" value="Female"> <br>
+
+
+        <label for="file">Send File</label>
+        <input type="file" name="user-file" id="file" value="user-file" autocomplete="off"> <br>
+
+
+        <h2>Time</h2>
+        <label for="time">Time in Your Country</label>
+        <input type="time" name="user-time" id="time" required>  <br>
+
+
+        <label for="Coment">Coment</label>
+
+        <textarea name="user-coment" id="Coment" cols="30" rows="10" placeholder="Write about Your Country" required></textarea> <br>
+        <label title="Search">Search Any Thing <input type="search" placeholder="Search" name="user-search" > <br></label> <br>
+        <h2>Location</h2>
+
+        <label for="user-country">Country</label>
+        <input name="user-country" type="text" id="user-country" required><br> 
+
+        <label for="user-city">City</label>
+        <input type="text" id="user-city" name="user-city" required><br>
+        <h2>Hobby</h2>
+        <label for="hobby">Hobby</label>
+        <select size="3" multiple name="user-hobby" id="hobby" placeholder="hobby" > <br>
+
+            <option selected disabled>Choose Your Hobby</option> <br>
+
+            <option value="drawing">Drawing</option> 
+
+            <option value="swimming">Swimming</option> 
+
+            <option value="create a party">Create a Party</option> 
+
+            <option value="painting">Painting</option> 
+
+            <option value="I don`t see my hobby">I Don`t See My Hobby</option> 
+
+        </select>
+        <h2>Choose your favourite subjects</h2> 
+        <label for="math">Math</label>
+        <input type="checkbox" id="math" name="user-subject" value="Math"> <br>
+
+        <label for="1">IT</label>
+        <input type="checkbox" id="1" name="user-subject" value="IT"> <br>
+
+        <label for="2">Biology</label>
+        <input type="checkbox" id="2" name="user-subject" value="Biology"> <br>
+
+        <label for="3">English</label>
+        <input type="checkbox" id="3" name="user-subject" value="English"> <br>
+
+        <label for="4">Russian</label>
+        <input type="checkbox" id="4" name="user-subject" value="Russian"> <br>
+
+        <label for="5">History</label>
+        <input type="checkbox" id="5" name="user-subject" value="History"> <br>
+        <button type="submit">Send </button>
+
+    </form>
+</body>
+</html>

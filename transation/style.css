@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+}
+.box-fox {
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 180px;
+}
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    transition: all 2.7s ease;
+    position: relative;
+}
+.box:hover{
+    transform: rotate(360deg);
+}
+.box::before{
+    content: "";
+    background-image: url(./wheel-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-size: 200px;
+    width: 200px;
+    height: 200px;
+}

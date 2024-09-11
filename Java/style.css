@@ -1,0 +1,14 @@
+.btn{
+    color: aliceblue;
+    background-color: dodgerblue;
+    border: solid 3px dodgerblue;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+.btn-primary{
+    color: dodgerblue;
+    background-color: rgb(179, 187, 194);
+    border: solid 3px rgb(179, 187, 194);
+    padding: 8px 16px;
+    border-radius: 16px;
+}

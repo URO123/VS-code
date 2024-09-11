@@ -1,0 +1,9 @@
+p{
+    color: red;
+}
+p.ex1{
+    display: none;
+}
+p.ex2{
+    display: inline;
+}

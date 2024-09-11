@@ -1,0 +1,98 @@
+*{
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+font-family: sans-serif;
+}
+.form{
+    padding-left: 300px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.left {
+    padding-bottom: 20px;
+}
+.name {
+}
+.input-1 {
+    width: 300px;
+    height: 50px;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.status1 {
+}
+.user {
+}
+.input-2 {
+    width: 300px;
+    height: 50px;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.status2 {
+}
+.password {
+}
+.input-3 {
+    width: 300px;
+    height: 50px;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.status3 {
+}
+.right {
+}
+.last {
+}
+.input-4 {
+    width: 300px;
+    height: 50px;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.status4 {
+}
+.email {
+}
+.input-5 {
+    width: 300px;
+    height: 50px;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.status5 {
+}
+.confirm {
+}
+.input-6 {
+    width: 300px;
+    height: 50px;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.status6 {
+    margin-bottom: 20px;
+}
+.submit{
+padding: 10px 30px;
+border-radius: 10px;
+background-color: dodgerblue;
+color: aliceblue;
+margin-left: 210px;
+}
+.red{
+    border: red solid 2px;
+}
+.green{
+    border: green solid 2px;
+}
